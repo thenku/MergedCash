@@ -1,10 +1,10 @@
-# HomelessCash
+# MergedCash - A Christian Community Currency App
 
-### HomelessCash is a unique regional private-currency app that anyone can use to facilitate a local or custom digital currency in places where money is more scarce than people and resources.
+### MergedCash is a unique regional private-currency app that anyone can use to facilitate a local or custom digital currency in places where money is more scarce than people and resources.
 
 Our vision is to give God everything, undo poverty, and prevent slavery first in South Africa, then Africa, and to the ends of the earth.
 
-Apart from being an App, HomelessCash is also a model that can help make currencies:
+Apart from being an App, MergedCash is also a model that can help make currencies:
 - Transparent
 - Reduce crime
 - Never leave a neighbourhood
