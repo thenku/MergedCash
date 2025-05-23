@@ -1,4 +1,4 @@
-# MergedCash - A Christian Community Currency App
+# MergedCash - A Local Christian Currency App
 
 ### MergedCash is a unique regional private-currency app that anyone can use to facilitate a local or custom digital currency in places where money is more scarce than people and resources.
 
