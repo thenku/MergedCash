@@ -8,7 +8,7 @@ MergedCash is a unique local private-currency app that anyone can use to facilit
 
 Please donate to support the work of HomelessCash so we can reach the poor and build the needed infrastructure and jobs required to accomplish our vision.
 
-Thank you for your tireless generosity!
+Thank you for your ongoing support!
 
 ---
 ## Demo
