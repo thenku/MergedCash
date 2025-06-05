@@ -1,6 +1,5 @@
-# MergedCash
-## Local Christian Currency
-### Cash that never leaves your geographic community
+# MergedCash | Local Christian Currency
+## Cash that never leaves your geographic community
 
 Our vision is to give God everything, undo poverty, and prevent slavery first in South Africa, then Africa, and to the ends of the earth.
 Apart from coding the software, we are actively educating and building the needed relationships to help its adoption in African communities.
