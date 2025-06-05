@@ -13,4 +13,4 @@ Thank you for your tireless generosity!
 
 ---
 ## Demo
-[Check out the Demo](https://mergedcash.com)
+[Check out the Demo](https://demo.mergedcash.com)
