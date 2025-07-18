@@ -1,10 +1,7 @@
 {
-	"name": "MergedCash.com",
+	"name": "MergedCashApp",
 	"version": "0.0.1",
 	"private": true,
-	"repository": {
-		"url": "git@gitlab.com:godworx/homelesscash.mergedhands.com.git"
-	},
 	"scripts": {
 		"dev": "vite dev --host 0.0.0.0",
 		"build": "vite build",
@@ -13,7 +10,9 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"styles": "ln -sf ~/source/henk_svelte_components/src/styles ./src/."
+
 	},
 	"devDependencies": {
 		"@macfja/svelte-persistent-store": "^2.4.0",

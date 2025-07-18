@@ -1,0 +1,179 @@
+@textFont: 'Source+Sans+Pro', sans-serif;
+@headingsFont: 'Montserrat', sans-serif;
+@headingsFont2: Bitter, serif;
+
+
+@maxSheetWidth: 1280px;
+@maxFormFit: 800px;
+@sheetWidth: calc(100% - 2rem);
+@headerHeight:80px;
+
+@borderRadius: 8px;
+
+@dark: rgb(25,25,25); 
+@light: rgb(230,230,230);
+@lightgrey: rgb(200,200,200);
+@lightergrey: rgb(230,230,230);
+@darkgrey: rgb(100,100,100);
+@darkergrey: rgb(70,70,70);
+@grey: rgb(170,170,170);
+@cream: #edd6bd;
+
+
+// @themeColor1: #46464f;
+@themeColor1: #1c3f65;
+@themeColor2: #1c3f65;
+@themeColor3: #1c3f65;
+@themeColor4: #97b1c7;
+@themeColor5: #d4dfe7;
+@themeColor6: #eee0cc;
+
+@linkColor: @themeColor3;
+
+
+@warningColor: "#721c24";
+@warningColorBg: "#f8d7da";
+@succesColor: "#155724";
+@succesColorBg: "#d4edda";
+
+// desktop
+@desktopMenuLinkTextColor:  @darkergrey;
+@menuLinkHoverTextColor: white;
+@menuLinkHoverBg:  @darkergrey;
+@desktopSubmenuLinkBg: @darkergrey;
+@desktopSubmenuLinkTextColor: white;
+@desktopSubmenuLinkBgHover: white;
+@desktopSubmenuLinkTextColorHover: @darkergrey;
+
+//mobile
+@mobileMenuColor: @themeColor4;
+@mobileMenuBgColor: rgba(0,0,0,.8);
+@mobileMenuLinkBg: transparent;
+@mobileMenuLinkHoverBg: @themeColor4;
+@mobileMenuLinkHoverTextColor: @dark;
+@mobileMenuLinkTextColor:  white;
+@mobileSubmenuLinkBg: @linkColor;
+@mobileSubmenuLinkTextColor: white;
+@mobileSubmenuLinkBgHover:@themeColor4;
+@mobileSubmenuLinkTextColorHover: @dark;
+
+//header
+@headerBg: white;
+//footer
+@footerBg: white;
+@footerColor: @darkergrey;
+@footerLinkColor: @dark;
+@footerLinkHoverColor: @grey;
+
+h1{
+    font-size: 3rem;
+    & * {
+        font-family: @headingsFont;
+    }
+    font-family: @headingsFont;
+    color:@themeColor1;
+    font-weight: bold;
+    &.alt{
+        font-size: 2rem;
+    }
+}
+h2{
+    font-family: @headingsFont;
+    color: @themeColor1;
+    text-transform: uppercase; 
+    font-size: 2rem;
+    letter-spacing: 1px;
+    &.alt{
+        // font-weight: bold;
+        text-transform: none;
+    }
+}
+h3{
+    font-family: @headingsFont2;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: @darkergrey;
+    &.alt{
+        font-family: @headingsFont;
+    }
+}
+h4{
+    font-family: @headingsFont2;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: @darkergrey;
+    &.alt{
+        text-transform: uppercase;
+        
+    }
+}
+
+
+.gwbox{
+    border-radius: @borderRadius;
+    overflow: hidden;
+}
+.gwsvg-card{
+    height: 50px;
+    width: auto;
+    margin-bottom: 2rem;
+    fill: @themeColor2;
+}
+a[href]{
+    color:@themeColor3;
+}
+hr{
+    border-width: 4px;
+}
+nav {
+    .hamburger{
+        padding: 0 !important;
+    }
+    .menuDesktop{
+        height: 100%;
+    }
+    ul{
+        padding: 0 !important;
+        align-self: center !important;
+        li {
+            padding: 0 !important;
+            margin: 0 !important;
+            a:nth-child(n){
+                border-radius: 0 !important;
+                font-family: @headingsFont;
+                font-size: 1.5rem !important;
+                color: @themeColor3;
+                transition: 500ms all ease-out;
+                padding: 8px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                animation: fadeIn 300ms forwards;
+                .gwbox();
+                &:hover{
+                    background-color: @themeColor3;
+                    color:white !important;
+                    &::first-line{
+                        text-decoration: none !important;
+                    }
+                }
+                &.active{
+                    background-color: @themeColor3;
+                    color:white !important;
+                    &::first-line{
+                        text-decoration: none !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+button, .btn{
+    text-transform: uppercase;
+    // padding: 1rem 2rem !important;
+    font-size: 1.1rem;
+    font-family: @headingsFont !important;
+}

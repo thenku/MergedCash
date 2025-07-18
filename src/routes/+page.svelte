@@ -3,8 +3,7 @@
     import HeadPageSeo from "@components/HeadPageSEO.svelte";
     import UserAccountContainer from "@components/UserAccount/UserAccountContainer.svelte";
     import { dev } from "$app/environment";
-    import HomelessCashContainer from "@components/HomelessCash/HomelessCashContainer.svelte";
-    // import HomelessCashContainer from "@components/HomelessCash/HomelessCashDemoContainer.svelte";
+    import HomelessCashDemoContainer from "@components/HomelessCash/HomelessCashDemoContainer.svelte";
     import { onMount } from "svelte";
 
     let title = "Welcome to MergedCash";
@@ -18,3 +17,10 @@
   
   <HeadPageSeo {...siteconfig} title={title} />
   
+  <div class="gwc">
+    <UserAccountContainer isDemo={true} endpoint="">
+      <br/>
+      <HomelessCashDemoContainer />
+    </UserAccountContainer>
+
+  </div>
