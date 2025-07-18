@@ -7,7 +7,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"publish": "yarn build && rm -Rf /home/gw/sites/demo.mergedcash.com/* && mkdir -p /home/gw/sites/demo.mergedcash.com/ && cp -R build/* /home/gw/sites/demo.mergedcash.com/.",
+		"publishme": "yarn build && rm -Rf /home/gw/sites/demo.mergedcash.com/* && mkdir -p /home/gw/sites/demo.mergedcash.com/ && cp -R build/* /home/gw/sites/demo.mergedcash.com/.",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
