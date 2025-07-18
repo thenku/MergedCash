@@ -11,4 +11,3 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 src/components
 src/styles
-tsconfig.json
